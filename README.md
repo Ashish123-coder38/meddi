@@ -8,22 +8,21 @@ Built for **real-world reliability**, not just demo purposes.
 
 ---
 
-## 🚀 Why This Project?
+##  Why This Project?
 
 Most AI chatbots guess when they don't know — dangerous in healthcare.  
 This system is different: it **retrieves real medical Q&A pairs**, **reranks them semantically**, and then **generates answers grounded in the retrieved evidence**.
 
-✅ No blind hallucinations  
-✅ Clear source links  
-✅ Designed for production trustworthiness
+ No blind hallucinations  
+ Clear source links  
+ Designed for production trustworthiness
 
 It’s a real-world demonstration of how RAG pipelines can add value where trust matters most.
 
 ---
 
-## 📚 About the Dataset
-
-The assistant is powered by the **MedQuAD** dataset — a trusted collection of real-world medical questions and answers sourced from authoritative sites like **NIH**, **MedlinePlus**, and **Genetic and Rare Diseases Information Center (GARD)**.  
+##  About the Dataset
+.  
 Before use, the dataset was **cleaned and preprocessed** into structured dictionaries containing:
 - `question`
 - `answer`
@@ -35,7 +34,7 @@ This ensures that retrieval is grounded in **validated medical information**, no
 
 ---
 
-## 🛠️ How It Works
+##  How It Works
 
 Here’s what happens when you ask a question:
 
@@ -66,28 +65,16 @@ Here’s what happens when you ask a question:
 
 ---
 
-## 📸 Sample Outputs
-
-- **Retrieval and Top-3 Reranked Results**  
-  _Top Q&A pairs retrieved and semantically reranked based on user query._
-
-  <img src="assets/retrieving.png" width="600"/>
-
-- **Pipeline Overview**  
-  _Internal flow showing retrieval, reranking, prompt building, and LLM answer generation._
-
-  <img src="assets/final_pipeline.png" width="600"/>
-
----
-
-## 🛤️ Internal Architecture (Code Flow)
--
-    <img src="assets/architecture.png" width="600"/>
 
 
 ---
 
-## 📂 Code Walkthrough
+
+
+
+---
+
+## Code Walkthrough
 
 Each module has a clean, defined role:
 
@@ -103,14 +90,4 @@ Each module has a clean, defined role:
 
 ---
 
-## 📬 Contact Me
-
-If you found this project useful, inspiring, or have any questions — feel free to connect!
-
-- 🧑‍💼 **Raviteja Kunapareddy**
-- 📧 Email: [ravitejakunapareddy09@gmail.com](mailto:ravitejakunapareddy09@gmail.com)
-- 🌐 LinkedIn: [linkedin.com/in/ravi-kunapareddy](https://www.linkedin.com/in/ravi-kunapareddy/)
-- 💼 Portfolio: [github.com/RaviKunapareddy/RaviKunapareddy](https://github.com/RaviKunapareddy/RaviKunapareddy)
-
-*Let’s build smarter systems together — one intelligent agent at a time.* 🚀
 
